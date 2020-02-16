@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="platformVersion" value="8.0"/>
+    <parameter name="devicename" value="Android Emulator"/>
+    <parameter name="platformName" value="Android"/>
+    <classes>
+      <class name="com.qa.tests.SigUpTests">
+        <methods>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="checkSignUpButton"/>
+          <include name="beforeTest"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.qa.tests.SigUpTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
